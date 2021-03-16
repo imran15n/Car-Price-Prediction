@@ -1,0 +1,38 @@
+Create a virtual Environment of your name choice.
+
+1) conda create -n carprediction python=3.7
+
+** You can change name carprediction to any name of your interest
+
+Now Activate the created environment
+
+2) conda activate carprediction
+
+After activating the enivironment paste your folder path where csv file is downloaded or 
+the folder in which you would like to work.
+
+If you forget the step follow Krish Naik Video end to end deployment
+
+
+### Creating requirements.txt in python
+
+pip freeze > requirements.txt
+
+our virtual env should be directed to to the folder where we have our python file, csv and etc i.e. main folder
+where we have created our virtual env
+
+It will look like this
+
+(carprediction) C:\Users\Imran\Downloads\car>pip freeze > requirements.txt
+
+
+###### To check created Environment in conda
+ 
+conda info --envs
+
+It will look like this
+
+(carprediction) C:\Users\Imran\Downloads\car>conda info --envs
+
+
+
